@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleInfra.Business.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleInfra.Business.Core.BaseSimpleBusiness`3">
+            <summary>
+            Base Simple Business class.
+            </summary>
+            <typeparam name="TDto"></typeparam>
+            <typeparam name="TEntity"></typeparam>
+            <typeparam name="TRepository"></typeparam>
+        </member>
+        <member name="P:SimpleInfra.Business.Core.BaseSimpleBusiness`3.Repository">
+            <summary>
+            Base Repository
+            </summary>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.CreateRepository">
+            <summary>
+            Creates new repository.
+            </summary>
+            <returns>TRepository instance</returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.#ctor">
+            <summary>
+            protected constructor
+            </summary>
+        </member>
+        <member name="P:SimpleInfra.Business.Core.BaseSimpleBusiness`3.Logger">
+            <summary>
+            Gets Logger instance.
+            </summary>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.GetInstance``1">
+            <summary>
+            Gets Instance of class.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.InsertInternal(`0,System.Boolean)">
+            <summary>
+            Insert record internally.
+            </summary>
+            <param name="dto"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.InsertInternalDontReturnDto(`0,System.Boolean)">
+            <summary>
+            Insert record internally.
+            </summary>
+            <param name="dto"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.InsertRangeInternal(System.Collections.Generic.List{`0},System.Boolean)">
+            <summary>
+            Inserts records internally.
+            </summary>
+            <param name="dtoList"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.UpdateInternal(`0,System.Boolean)">
+            <summary>
+            Update record internally.
+            </summary>
+            <param name="dto"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.UpdateRangeInternal(System.Collections.Generic.List{`0},System.Boolean)">
+            <summary>
+            Updates records internally.
+            </summary>
+            <param name="dtoList"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.DeleteInternal(`0,System.Boolean)">
+            <summary>
+            Delete record internally.
+            </summary>
+            <param name="dto"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.DeleteRangeInternal(System.Collections.Generic.List{`0},System.Boolean)">
+            <summary>
+            Deletes records internally.
+            </summary>
+            <param name="dtoList"></param>
+            <param name="autoSave"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.ReadAllInternal">
+            <summary>
+            Reads all records as internally.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.ReadSingle(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)">
+            <summary>
+            Return single entity for given predicate.
+            </summary>
+            <param name="predicate"></param>
+            <param name="asNoTracking"></param>
+            <returns>returns entity instance if predicate condition true.</returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.ReadDtoSingle(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}})">
+            <summary>
+            Return single dto for given predicate.
+            </summary>
+            <param name="predicate"></param>
+            <returns>returns dto instance if predicate condition true.</returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.ReadFirst(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}},System.Boolean)">
+            <summary>
+            Return first entity for given predicate.
+            </summary>
+            <param name="predicate"></param>
+            <param name="asNoTracking"></param>
+            <returns>returns first entity instance if predicate condition true.</returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.ReadDtoFirst(System.Linq.Expressions.Expression{System.Func{`1,System.Boolean}})">
+            <summary>
+            Return first dto for given predicate.
+            </summary>
+            <param name="predicate"></param>
+            <returns>returns first dto instance if predicate condition true.</returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.Map(`1)">
+            <summary>
+            Maps entity to data transfer object.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.MapReverse(`0)">
+            <summary>
+            Maps data transfer object to entity.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.MapTo(`1,`0)">
+            <summary>
+            Maps entity to data transfer object.
+            </summary>
+            <param name="entity"></param>
+            <param name="dto"></param>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.MapToReverse(`0,`1)">
+            <summary>
+            Maps data transfer object to entity.
+            </summary>
+            <param name="entity"></param>
+            <param name="dto"></param>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.MapList(System.Collections.Generic.List{`1})">
+            <summary>
+            Maps entity list to data transfer object list.
+            </summary>
+            <param name="entityList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.MapListReverse(System.Collections.Generic.List{`0})">
+            <summary>
+            Maps data transfer object list to entity list.
+            </summary>
+            <param name="entityList"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.SaveChanges">
+            <summary>
+            Saves changes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:SimpleInfra.Business.Core.BaseSimpleBusiness`3.Dispose">
+            <summary>
+            Disposes object.
+            </summary>
+        </member>
+        <member name="T:SimpleInfra.Business.Core.BusinessResponseValues">
+            <summary>
+            Defines the <see cref="T:SimpleInfra.Business.Core.BusinessResponseValues" />
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.Business.Core.BusinessResponseValues.NullIdValue">
+            <summary>
+            Defines the NullIdValue
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.Business.Core.BusinessResponseValues.NullEntityValue">
+            <summary>
+            Defines the NullEntityValue
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.Business.Core.BusinessResponseValues.NullDtoValue">
+            <summary>
+            Defines the NullDtoValue
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.Business.Core.BusinessResponseValues.ValidationErrorResult">
+            <summary>
+            Defines the ValidationErrorResult
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.Business.Core.BusinessResponseValues.InternalError">
+            <summary>
+            Defines the InternalError
+            </summary>
+        </member>
+    </members>
+</doc>

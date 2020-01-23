@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleInfra.Common.Response</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleInfra.Common.Response.SimpleResponse">
+             <summary>   A simple response. </summary>
+            
+             <remarks>   Mustafa SAÇLI, 7.05.2019. </remarks>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.SimpleResponse.ResponseCode">
+             <summary>   Gets or sets the response code. </summary>
+            
+             <value> The response code. </value>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.SimpleResponse.RCode">
+             <summary>   Gets or sets the response code. </summary>
+            
+             <value> The response code. </value>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.SimpleResponse.ResponseMessage">
+             <summary>   Gets or sets a message describing the response. </summary>
+            
+             <value> A message describing the response. </value>
+        </member>
+        <member name="T:SimpleInfra.Common.Response.ServiceResponse">
+             <summary>   A service response. </summary>
+            
+             <remarks>   Mustafa SAÇLI, 7.05.2019. </remarks>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.ServiceResponse.ResponseCode">
+             <summary>   Gets or sets the response code. </summary>
+            
+             <value> The response code. </value>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.ServiceResponse.RCode">
+             <summary>   Gets or sets the response code. </summary>
+            
+             <value> The response code. </value>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.ServiceResponse.ResponseMessage">
+             <summary>   Gets or sets a message describing the response. </summary>
+            
+             <value> A message describing the response. </value>
+        </member>
+        <member name="T:SimpleInfra.Common.Response.SimpleResponse`1">
+             <summary>   A simple response. </summary>
+            
+             <remarks>   Mustafa SAÇLI, 7.05.2019. </remarks>
+            
+             <typeparam name="T">    Generic type parameter. </typeparam>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.SimpleResponse`1.Data">
+             <summary>   Gets or sets the data. </summary>
+            
+             <value> The data. </value>
+        </member>
+        <member name="T:SimpleInfra.Common.Response.ServiceResponse`1">
+             <summary>   A service response. </summary>
+            
+             <remarks>   Mustafa SAÇLI, 7.05.2019. </remarks>
+            
+             <typeparam name="T">    Generic type parameter. </typeparam>
+        </member>
+        <member name="P:SimpleInfra.Common.Response.ServiceResponse`1.Data">
+             <summary>   Gets or sets the data. </summary>
+            
+             <value> The data. </value>
+        </member>
+    </members>
+</doc>

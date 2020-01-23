@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleInfra.Dto.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleInfra.Dto.Core.BaseSimpleDto">
+            <summary>
+            Base Dto class
+            </summary>
+        </member>
+    </members>
+</doc>

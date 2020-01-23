@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleInfra.IoC</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleInfra.IoC.SimpleIoC">
+            <summary>
+            Simple IoC class
+            </summary>
+        </member>
+        <member name="F:SimpleInfra.IoC.SimpleIoC.lockObj">
+            <summary>   The lock object. </summary>
+        </member>
+        <member name="F:SimpleInfra.IoC.SimpleIoC.container">
+            <summary>   The container. </summary>
+        </member>
+        <member name="F:SimpleInfra.IoC.SimpleIoC.instanceLazy">
+            <summary>   The instance lazy. </summary>
+        </member>
+        <member name="P:SimpleInfra.IoC.SimpleIoC.Logger">
+            <summary>
+            ISimpleLogger instance.
+            </summary>
+        </member>
+        <member name="M:SimpleInfra.IoC.SimpleIoC.#ctor">
+             <summary>
+             Constructor that prevents a default instance of this class from being created.
+             </summary>
+            
+             <remarks>   Mustafa SAÇLI, 23.01.2020. </remarks>
+        </member>
+        <member name="P:SimpleInfra.IoC.SimpleIoC.Instance">
+             <summary>   Gets the ınstance. </summary>
+            
+             <value> The instance. </value>
+        </member>
+        <member name="P:SimpleInfra.IoC.SimpleIoC.Container">
+             <summary>   Gets the document store. </summary>
+            
+             <value> The document store. </value>
+        </member>
+        <member name="M:SimpleInfra.IoC.SimpleIoC.GetInstance``1">
+            <summary>
+            Gets Instance of containing class.
+            </summary>
+            <typeparam name="TService"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.IoC.SimpleIoC.Start">
+            <summary>
+            Starts all registirations.
+            </summary>
+        </member>
+        <member name="M:SimpleInfra.IoC.SimpleIoC.Bootstrap">
+             <summary>   Bootstraps this object. </summary>
+            
+             <remarks>   Mustafa SAÇLI, 23.01.2020. </remarks>
+        </member>
+    </members>
+</doc>

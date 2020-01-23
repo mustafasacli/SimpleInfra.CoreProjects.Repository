@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleInfra.Business.Interfaces.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1">
+            <summary>
+            Base Generic Business Interface.
+            </summary>
+            <typeparam name="TDto"></typeparam>
+        </member>
+        <member name="M:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1.Create(`0)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1.Read(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="oid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1.Update(`0)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1.Delete(`0)">
+            <summary>
+            Deletes entity.
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SimpleInfra.Business.Interfaces.Core.IBaseSimpleBusiness`1.ReadAll">
+            <summary>
+            Reads All Entity records.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
